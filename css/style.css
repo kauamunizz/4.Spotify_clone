@@ -214,7 +214,7 @@ body {
         position: absolute;
     }
     #showcase {
-        height: 120vh;
+        height: 180vh;
     }
     .navbar-container .logo {
         padding: 0 10px;
@@ -263,6 +263,9 @@ body {
     .footer-info .footer-info-items .footer-info-item {
         margin: 10px 8px;
         font-size: 0.83rem;
+    }
+    .footer-info .rights .country .brasil-flag {
+        margin-left: 5px;
     }
 }
 
