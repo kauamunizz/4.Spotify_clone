@@ -218,17 +218,21 @@ body {
     }
     .navbar-container .logo {
         padding: 0 10px;
-        margin: 10px 0;
+        margin: 20px 0;
     }
     #navbar .navbar-container {
+        flex-direction: column;
         width: auto;
         padding: 10px 0;
     }
     #navbar .navbar-container ul {
         display: block;
+        text-align: center;
     }
     #navbar .navbar-container ul li{
         padding: 3px 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
     }
     #navbar .navbar-container ul li:nth-child(3){
         border-right: none;
@@ -240,11 +244,12 @@ body {
         font-size: 1rem;
     }
     .showcase-container h2, p{
-        padding: 0 10px;
+        padding: 0 15px;
         text-align: center;
     }
     #footer .footer-content {
         flex-direction: column;
+        text-align: center;
     }
     #footer .footer-content img {
         height: 65px;
@@ -256,7 +261,8 @@ body {
         flex-direction: column;
     }
     .footer-info .footer-info-items .footer-info-item {
-        margin: 2px 10px;
+        margin: 10px 8px;
+        font-size: 0.83rem;
     }
 }
 
